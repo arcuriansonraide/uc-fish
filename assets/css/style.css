@@ -1,0 +1,113 @@
+/* stylesheet */
+/* defult font size at 16px */
+/* margin is outside the box, padding is inside the box */
+
+header h1 {
+    text-align: center;
+    color: darkblue;
+    font-weight: bold;
+    font-size: 250%;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 100px;   
+    width: 200px;
+    border: 1px solid darkblue;
+    border-radius: 10px;
+    background-color: aqua;
+
+}
+
+nav ul li:hover {
+    background-color: mediumaquamarine;
+}
+
+nav ul li a {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+}
+
+a {
+    color: darkblue;
+    text-decoration: underline;
+    text-align: center;
+}
+
+a:hover {
+    color: red;
+}
+
+main { 
+    margin: 0 250px;
+}
+
+body {
+    font-size: 20px;
+    background-color: aquamarine;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+h3 {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+h2 {
+    color: darkblue;
+    font-weight: bold;
+    font-size: 135%;
+    font-family: sans-serif;
+    padding: 10px;
+    margin: 2px;
+    text-align: center;
+}
+
+p {
+    color: black;
+    line-height: .8cm;
+    font-size: 19px text-indent: 1cm;
+    padding: 10px;
+}
+
+.to_top {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.to_top a {
+    border: 1px solid darkblue;
+    border-radius: 10px;
+    background-color: aqua;
+    padding: 5px;
+}
+
+.to_top a:hover {
+    background-color: mediumaquamarine;
+}
+
+.dashed_break {
+    border: 1px dashed black;
+    margin: 20px 0;
+}
+
+img {
+    float: left;
+    width: 300px;
+    height: auto;
+    border: 2px solid black;
+    margin-right: 20px;
+}
+
+.barracks_with_cap img {
+    width: 400px;
+    height: auto;
+    border: 2px solid black;
+    float: right;
+}
